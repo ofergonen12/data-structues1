@@ -4,7 +4,7 @@
 
 int main()
 {//testing the functions
-	intNode* head = nullptr;
+    intNode* head = nullptr;
     insertAtBeginning(&head, 10);
     insertAtBeginning(&head, 20);
     insertAtBeginning(&head, 30);
@@ -12,9 +12,11 @@ int main()
     printList(head);
     deleteHead(&head);
     std::cout << "Linked list after deleting the head node: ";
-	printList(head);
-	return 0;
+    printList(head);
+    return 0;
 }
+
+
 
 
 void insertAtBeginning(intNode** head, int new_data)

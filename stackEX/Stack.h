@@ -7,7 +7,7 @@
 typedef struct Stack
 {
 	intNode* head;
-	int current_size;
+	unsigned int current_size;
 } Stack;
 
 void push(Stack* s, unsigned int element);
