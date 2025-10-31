@@ -33,7 +33,7 @@ void enqueue(Queue* q, unsigned int newValue)
 	int rear = (q->front + q->count) % q->size;//finding the location to insert new value
     if (isFull(q))
 	{//checking if queue is full
-        std::cout << "Queue is full. Cannot enqueue new value." << std::endl;
+        std::cout << "Queue is full. Cannot enter  new value." << std::endl;
     }
     else
     {
