@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Part1Tester.cpp" />
     <ClCompile Include="queue.cpp" />
   </ItemGroup>
   <ItemGroup>

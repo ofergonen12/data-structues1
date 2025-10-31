@@ -23,5 +23,13 @@ input: the linked list
 outptut:none
 */
 
+void printList(intNode* head);
+/*
+a function that prints the linked list  i created to check if everything is working fine
+input: head of the linked list
+output:none
+*/
+
+
 
 #endif
